@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  font-family: $base-font;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.scale {
+  border: 1px solid $pink;
+  transition: transform 1s;
+}
+
+.scale:hover {
+  -webkit-transform: scale(4);
+  transform: scale(4);
+}
+
+.rotate {
+  border: 1px dashed $light-mint;
+  transition: transform 2s;
+}
+
+.rotate:hover {
+  -webkit-transform: rotate(1000deg);
+  transform: rotate(1000deg);
+}
+
+.skew {
+  border: 1px solid $peach;
+  transition: transform 1s;
+}
+
+.skew:hover {
+  -webkit-transform: skew(25deg, 10deg);
+  transform: skew(25deg, 10deg);
+}
+
+.translate {
+  border: 1px dotted $mint;
+  transition: transform 0.40s;
+}
+
+.translate:hover {
+ -webkit-transform: translate(30px, 30px);
+ transform: translate(30px, 30px);
+}
