@@ -1,0 +1,24 @@
+@keyframes animateColor {
+  0% {
+    background-color: $light-mint;
+    animation-timing-function: ease-in;
+  }
+
+  30% {
+    background-color: $yellow;
+    animation-timing-function: ease-in;
+  }
+
+  50% {
+    background-color: $peach;
+    animation-timing-function: ease-in;
+  }
+
+  80% {
+    background-color: $purple;
+    animation-timing-function: ease-out;
+  }
+  100% {
+    background-color: white;
+  }
+}
