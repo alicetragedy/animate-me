@@ -107,3 +107,12 @@ h1 {
   -webkit-transform: rotateZ(-180deg);
   transform: rotateZ(-180deg);
 }
+
+.skew-rotate {
+  border: 1px solid $mint;
+}
+
+.skew-rotate:hover {
+  -webkit-animation: skewAndRotate 3s;
+  animation: skewAndRotate 3s;
+}

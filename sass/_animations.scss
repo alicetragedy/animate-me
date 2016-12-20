@@ -22,3 +22,28 @@
     background-color: white;
   }
 }
+
+@keyframes skewAndRotate {
+  
+  0% {
+    animation-timing-function: ease-in;
+  }
+
+  30% {
+    -webkit-transform: skew(-30deg, 30deg) rotateX(10deg);
+    transform: skew(-30deg, 30deg) rotateX(10deg);
+    animation-timing-function: ease-in;
+  }
+
+  70% {
+    -webkit-transform: skew(45deg, -10deg) rotateX(180deg);
+    transform: skew(45deg, -10deg) rotateX(180deg);
+    animation-timing-function: ease-out;
+  }
+
+  100% {
+    -webkit-transform: skew(0, 0) rotateX(0);
+    transform: skew(0, 0) rotateX(0);
+    animation-timing-function: ease-out;
+  }
+}
